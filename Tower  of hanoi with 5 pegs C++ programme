@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+
+void toh(int n,string from,string to,string a1, string a2,string a3)
+{if(n==0)
+    return ;
+   
+   if(n==1)
+    {cout<<" FROM "<<from<<" TO "<<to<<endl;return;}
+   
+   if(n==2)
+    {cout<<" FROM "<<from<<" TO "<<a3<<endl;
+     cout<<" FROM "<<from<<" TO "<<to<<endl;
+     cout<<" FROM "<<a3<<" TO "<<to<<endl;
+    return;
+    }
+    
+    toh(n-3,from,a1,a2,a3,to);
+    cout<<" FROM "<<from<<" TO "<<a2<<endl;
+    cout<<" FROM "<<from<<" TO "<<a3<<endl;
+    cout<<" FROM "<<from<<" TO "<<to<<endl;
+    cout<<" FROM "<<a3<<" TO "<<to<<endl;
+    cout<<" FROM "<<a2<<" TO "<<to<<endl;
+    toh(n-3,a1,to,from,a2,a3);
+    
+    }
+    
+int main()
+{   
+   cout<<"\n Enter NUM of discs in toh with 5 pegs :  ";
+    int n;cin>>n;
+    cout<<"\n MOVE DISCS BY FOLLOWING THE BELOW STEPS TO WIN GAME IN MINIMUM STEPS  : \n";
+    toh(n,"Peg-A","Peg-E","Peg-B","Peg-C","Peg-D");
+    
+    return 0;
+    
+    }
+    
+    /*tower of hanoi with 5 pegs program has a recurrence relation as 
+T(N)=T(N-3)+5
+and this has been taken into consideration for programming this */
+
+
+
+
+
