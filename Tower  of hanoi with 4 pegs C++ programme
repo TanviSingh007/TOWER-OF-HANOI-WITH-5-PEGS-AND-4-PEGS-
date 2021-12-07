@@ -1,0 +1,32 @@
+#include <iostream>
+
+using namespace std;
+void toh(int n,string from,string to,string a1, string a2)
+
+{if(n==0)
+    return ;
+    if(n==1)
+    {cout<<"From "<<from<<" to "<< to<<endl;return;}
+    toh(n-2,from,a1,a2,to);
+    cout<<"From "<<from<<" to "<<a2<<endl;
+    cout<<"From "<<from<<" to "<<to<<endl;
+    cout<<"From "<<a2<<" to "<<to<<endl;
+    toh(n-2,a1,to,from,a2);
+    
+}
+int main()
+{ 
+    cout<<"\n enter number of discs in toh with 4 pegs :";
+    int n;cin>>n;
+    toh(n,"peg-a","peg-d","peg-b","peg-c");
+    
+
+    return 0;
+}
+
+
+/*
+the recurrence relation is:
+T(N)=T(N-2) + 3
+8
+*/
