@@ -32,7 +32,7 @@ still working -->
 
 #### Screenshots/Demo Video
 
-#### !_ADMIN_
+#### ! _ADMIN_
 ##### 1) Admin Page
 ![Home](assets_readme/ADMINPAGE.png)
       
