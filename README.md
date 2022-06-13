@@ -34,13 +34,18 @@ still working -->
 
 #### _ADMIN_
 ##### 1) Admin Page
-![Home](assets_readme/ADMINPAGE.png)
-      
-![appointment](assets_readme/map.png)
-
-<!-- ![searching](assets/searching.png)
-
-![searching](assets/videochat.png) -->
+![ADMINHome](assets_readme/ADMINPAGE.png)
+##### 2) Events with the Names of Volunteers Assigned to that Event      
+![mapped](assets_readme/map.png)
+##### 3) Schedule Meet (for Verification ) & Send Mail 
+![meetschedule](assets_readme/schedule_meet.png)
+#### _VOLUNTEER_
+##### 1) Volunteer Page
+![VOLUNTEERHOME](assets_readme/volunteerpage.png)
+##### 2) All Events Assigned 
+![events_Assigned](assets_readme/all events assigned.png)
+##### 3) Withdraw name from Event 
+![Withdraw](assets_readme/withdraw.png)
 
 
 
