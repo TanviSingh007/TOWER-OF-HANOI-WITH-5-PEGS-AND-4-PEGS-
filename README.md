@@ -43,7 +43,7 @@ still working -->
 ##### 1) Volunteer Page
 ![VOLUNTEERHOME](assets_readme/volunteerpage.png)
 ##### 2) All Events Assigned 
-![events_Assigned](assets_readme/all events assigned.png)
+![eventsAssigned](assets_readme/all events assigned.png)
 ##### 3) Withdraw name from Event 
 ![Withdraw](assets_readme/withdraw.png)
 
