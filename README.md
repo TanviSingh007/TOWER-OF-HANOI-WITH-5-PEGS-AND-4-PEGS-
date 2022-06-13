@@ -1,4 +1,4 @@
-#### _TOYBANK SYSTEM_
+### _TOYBANK SYSTEM_
 
 
 #### Overview
@@ -28,7 +28,7 @@ still working -->
 
 
 #### WEBSITE LINK
-1.  
+--link-- 
 
 #### Screenshots/Demo Video
 
@@ -43,14 +43,14 @@ still working -->
 ##### 1) Volunteer Page
 ![VOLUNTEERHOME](assets_readme/volunteerpage.png)
 ##### 2) All Events Assigned 
-![eventsAssigned](assets_readme/all events assigned.png)
+![eventsAssigned](assets_readme/EventsAssigned.png)
 ##### 3) Withdraw name from Event 
 ![Withdraw](assets_readme/withdraw.png)
 
 
 
 
-_Add some screens and a demo_
+<!-- _Add some screens and a demo_ -->
 
 #### Usage
 Follow these steps to run the application on your local machine - 
@@ -61,12 +61,4 @@ Follow these steps to run the application on your local machine -
 5. Open "localhost:3000" on your browser to use web application
 
 
-#### AWS Services Used
-
-_Write in brief about how you used AWS service to improve your application._
-1. AWS Elastic Beanstalk
-    We have used elastic beanstalk to host our node server as it easy-to-use service for deploying and scaling web applications and services.You can simply upload your code and Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing, auto-scaling to application health monitoring. At the same time, you retain full control over the AWS resources powering your application and can access the underlying resources at any time.
-
-2. AWS amazon lex
-   we have used this service for building our website chat bot. we impleted our bot with with lamda function.
 
