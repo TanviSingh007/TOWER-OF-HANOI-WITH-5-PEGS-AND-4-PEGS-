@@ -36,11 +36,11 @@ still working -->
 ##### 1) Admin Page
 ![Home](assets_readme/ADMINPAGE.png)
       
-<!-- ![appointment](assets/appointment.png)
+![appointment](assets/map.png)
 
 ![searching](assets/searching.png)
 
-![searching](assets/videochat.png) -->
+![searching](assets/videochat.png)
 
 
 
